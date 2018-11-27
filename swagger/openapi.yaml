@@ -1,0 +1,28 @@
+openapi: 3.0.1
+info:
+  version: 1.0.0
+  title: 本棚自慢API
+  description: 本棚自慢サイトのWebAPI
+
+tags: 
+  - name: 本棚登録API
+    description: 本棚情報を登録するWebAPI
+  - name: 本棚一覧API
+    description: 本棚一覧を取得するWebAPI
+
+paths:
+  /bookshelf:
+    post:
+      tags: 
+        - 本棚登録API
+      description: 本棚情報を登録するWebAPI
+      operationId: postBookshelf
+      parameters: 
+        - a: b
+  
+  
+    get:
+      tags: 
+        - 本棚一覧API
+      description: 本棚一覧を取得するWebAPI
+      operationId: 
